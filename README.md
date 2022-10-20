@@ -20,7 +20,9 @@ Requirements:
 - The sitemap is required to be a total of at least 3 per person
 - Research and Copywriting and have to be original.
 - A page containing a Form for the call to action is required.
-- PDPA is required to be handled in the project
+- PDPA > Attend Lecture
+- SEO > Attend Lecture
+- Mobile Responsive
 
 A powerpoint presentation is required to simulate a pitch which includes:
 
