@@ -42,7 +42,7 @@ Notes:
 
 Deliverables:
 
-- Submit the website via a zip file via NTULearn before the deadline.
+- Submit the website url via NTULearn before the deadline.
 - Develop a power-point report that contains your web design planning (including navigation and sitemap design), research and content strategy process.
 
 ![Overall Website Usability and Functionality](https://github.com/Its-Js/CS2024-Final-Group-Project/blob/main/Marking%20Rubrics/Overall%20Website%20Usability%20and%20Functionality.png?raw=true)
