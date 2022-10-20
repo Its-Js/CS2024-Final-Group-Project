@@ -1,19 +1,17 @@
 # CS2024-Final-Group-Project
 Option 1:
 
-Problem Statement:
-To develop a website for a medical company that does PCR test in Singapore
-Goals:
-To improve booking sales of PCR packages within the next 3 months by 20%
+Problem Statement: To develop a website for a medical company that does PCR test in Singapore
+
+Goals: To improve booking sales of PCR packages within the next 3 months by 20%
 
 or
 
 Option 2:
 
-Problem Statement:
-To develop a website for an asethtic clinic that offers a range of affordable and safe treatments for your face and body in Singapore
-Goals:
-To improves enquires within the next 3 months by 20%
+Problem Statement: To develop a website for an asethtic clinic that offers a range of affordable and safe treatments for your face and body in Singapore
+
+Goals: To improves enquires within the next 3 months by 20%
 
 Requirements:
 
