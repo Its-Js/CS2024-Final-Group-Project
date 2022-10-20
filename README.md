@@ -17,7 +17,7 @@ Requirements:
 
 - To form in a group of 4~5 to represent an agency comprises of Project Manager, Copywriter, Web Designer / Developer within their own tutorial group.
 - The team is required to develop an end to end website using HTML and CSS
-- The sitemap is required to be a total of at least 4~5 pages.
+- The sitemap is required to be a total of at least 12 pages.
 - Research and Copywriting and have to be original.
 - A page containing a Form for the call to action is required.
 - PDPA is required to be handled in the project
