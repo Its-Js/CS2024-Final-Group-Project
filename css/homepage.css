@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    display: none;
+}  
+header{
+    border: 10px;
+} 
+
+.hero{
+    width: 100%;
+    height: fit-content;
+    background-image: linear-gradient(to bottom right, #ffffff, #f9e6d4);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.model{
+    background-image: none;
+    background-size:contain;
+    background-position: center;
+}
+.hero-content{
+    display: flex;
+}
+.hero-text{
+    margin-left: 100px;
+    margin-top: 100px;
+   text-align: center;
+   width: fit-content;
+}
+.hero-text-heading{
+    font-size: 50px;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-style: normal;
+}
+.hero-text-subheading{
+    width: 600px;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.navbar{
+    overflow: hidden;
+    width: 100%;
+}
+.container-fluid{
+    width: fit-content;
+    margin-left: 250px;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: 600;
+}
+.logo-image{
+    width: 300px;
+    margin-left: 50px;
+}
+.btn{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #c7a789;
+    border: none;
+    color: #5a5a5a;
+}
+.btn:hover{
+    background-color: #f9e6d4;
+}
