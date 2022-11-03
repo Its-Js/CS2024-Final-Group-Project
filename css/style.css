@@ -2,11 +2,27 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif; 
+  font-weight: 100;
+  font-size: 20px;
 }
+/* fonts */
 h1{
   font-family: Antic Didone, serif;
+  font-size: 64px;
+
+  
 }
+h2{
+  font-family: Antic Didone, serif;
+}
+.roboto-italic-300 {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #5a5a5a;
+}
+
 
 
 
@@ -59,6 +75,7 @@ h1{
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /* Thin out the marketing headings */
