@@ -1,10 +1,13 @@
 body {
-  padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
   font-family: Roboto, sans-serif; 
   font-weight: 100;
   font-size: 20px;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+  display: none;
 }
 /* fonts */
 h1{
@@ -176,22 +179,6 @@ h2{
   text-decoration: none;
 }
 
-/*
-* Dummy devices (replace them with your own or something else entirely!)
-*/
-
-.male {
-
-  right: 10%;
-  bottom: -30%;
-  width: 300px;
-  height: 540px;
-  border-radius: 21px;
-}
-
-.female {
- align-items: left;
-}
 
 /*
 * Extra utilities
@@ -206,6 +193,47 @@ h2{
   }
 }
 
+/* navigation */
 .navbar {
   margin-bottom: 20px;
+  width: 100%;
+}
+.container-fluid{
+  width: fit-content;
+  margin-right: 50px;
+}
+.nav-link{
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 4px;
+}
+.logo-image{
+  width: 300px;
+  margin-left: 50px;
+}
+
+/* hero */
+
+.hero{
+  width: 100%;
+  height: fit-content;
+  background-image: linear-gradient(to bottom right, #ffffff, #f9e6d4);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+/* btn */
+.btn{
+  font-size: 20px;
+  background-color: #d9bba9;
+  color: white;
+  border-radius: 40px;
+  padding: 10px 30px;
+}
+.btn:hover{
+  --bs-btn-hover-bg: ;
+  --bs-btn-hover-border-color: 2px solid #d9bba9;
+  --bs-btn-hover-color: #d9bba9;
 }
