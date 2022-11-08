@@ -56,7 +56,7 @@
           class="navbar navbar-expand-lg"
           aria-label="Twelfth navbar example"
         >
-        <a href="index.html">
+        <a class="logo" href="index.html">
           <img src="../assets/logo-main2.png" alt="" class="logo-image">
         </a>
           <div class="container-fluid">
@@ -82,8 +82,24 @@
                     >Home</a
                   >
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About Us</a>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >About Us</a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="about.html">Our Story</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="doctors.html">Our Doctors</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="facilities.html">Our Facilities</a>
+                    </li>
+                  </ul>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -111,31 +127,14 @@
                     
                   </ul>
                 </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                    >Conditions</a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="conditions.html"
-                        >All Conditions</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="Services_Botox.html">Botox</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="Services_Laser.html">Lasers & IPLs</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="Services_Cellulite.html">Anti-Cellulite</a>
-                    </li>
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="faq.html">FAQs</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn" href="book.html">Book Now</a>
                 </li>
               </ul>
             </div>
@@ -150,9 +149,9 @@
             </p>
             <a class="btn" href="#">Book An Appointment</a> <br>
         </div>
-        <!-- <div class="hero-image">
-          <img src="../assets/hero-female-model.png" alt="" style="height: 600px">
-        </div> -->
+        <div class="hero-image">
+          <img class="model" src="../assets/hero-female-model.png" alt="" style="height: 600px">
+        </div>
       </div>  
     </div> 
     <main>
@@ -522,64 +521,46 @@
       <footer class="py-5">
         <div class="row">
           <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
+            <h5><b>LUX Aesthetics</b></h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Home</a>
+                <a href="index.html" class="nav-link p-0 text-muted">Home</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Features</a>
+                <a href="faq.html" class="nav-link p-0 text-muted">FAQs</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">About</a>
+                <a href="contact.html" class="nav-link p-0 text-muted">Contact Us</a>
               </li>
             </ul>
           </div>
 
           <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
+            <h5><b>About Us</b></h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Home</a>
+                <a href="about.html" class="nav-link p-0 text-muted">Our Story</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Features</a>
+                <a href="doctors.html" class="nav-link p-0 text-muted">Our Doctors</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">About</a>
+                <a href="facilities.html" class="nav-link p-0 text-muted">Our Facilities</a>
               </li>
             </ul>
           </div>
 
           <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
+            <h5><b>Our Services</b></h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Home</a>
+                <a href="Services_Botox.html" class="nav-link p-0 text-muted">Botox</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Features</a>
+                <a href="Services_Laser.html" class="nav-link p-0 text-muted">Lasers & IPLs</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">About</a>
+                <a href="Services_Cellulite.html" class="nav-link p-0 text-muted">Anti-Cellulite</a>
               </li>
             </ul>
           </div>
