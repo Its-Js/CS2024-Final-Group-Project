@@ -1,0 +1,81 @@
+body{
+    padding: 0;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    display: none;
+}  
+header{
+    border: 10px;
+} 
+
+.hero{
+    width: 100%;
+    height: fit-content;
+    background-image: linear-gradient(to bottom right, #ffffff, #f9e6d4);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.model{
+    background-image: none;
+    background-size:contain;
+    background-position: center;
+}
+.hero-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/hero-female-model.png);
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    z-index: 2;
+}
+.hero-text-heading{
+    font-size: 96px;
+   
+    font-family: "Antic Didone";
+    font-weight: 300;
+    font-weight: bold;
+    font-style: italic;
+}
+.hero-text-subheading{
+    width: 600px;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.navbar{
+    width: 100%;
+}
+.container-fluid{
+    width: fit-content;
+    margin-right: 50px;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: 400;
+}
+.logo-image{
+    width: 300px;
+    margin-left: 50px;
+}
+.btn{
+    font-size: 20px;
+    background-color: #d9bba9;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 30px;
+}
+.btn:hover{
+    --bs-btn-hover-bg: ;
+    --bs-btn-hover-border-color: 2px solid #5a5a5a;
+    --bs-btn-hover-color: #5a5a5a;
+}
