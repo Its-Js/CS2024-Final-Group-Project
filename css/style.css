@@ -1,6 +1,4 @@
 body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
   color: #5a5a5a;
   font-family: Roboto, sans-serif; 
   font-weight: 100;
@@ -38,21 +36,14 @@ h2{
 }
 
 .btn-outline-secondary {
-  --bs-btn-color: #000000;
-  --bs-btn-bg: #F7C978;
-  --bs-btn-border-color: #F7C978;
-  --bs-btn-hover-color: #ffffff;
-  --bs-btn-hover-bg: #F7C978;
-  --bs-btn-hover-border-color: #ffffff;
-  --bs-btn-focus-shadow-rgb: 25,135,84;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #e5e7e6;
-  --bs-btn-active-border-color: #198754;
-  --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #198754;
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #198754;
-  --bs-gradient: none;
+  --bs-btn-color: #5a5a5a;
+  --bs-btn-bg: #D9BBA9;
+  --bs-btn-border-color: #D9BBA9;
+  --bs-btn-hover-color: #5a5a5a;
+  --bs-btn-hover-bg: #ffffff;
+  --bs-btn-hover-border-color: #D9BBA9;
+  
+  
 }
 
 /* MARKETING CONTENT
@@ -207,5 +198,5 @@ h2{
 }
 
 .navbar {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
