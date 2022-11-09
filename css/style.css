@@ -197,6 +197,7 @@ h2{
 .navbar {
   margin-bottom: 20px;
   width: 100%;
+  --bs-navbar-toggler-icon-bg: none;
 }
 .container-fluid{
   width: fit-content;
@@ -206,6 +207,7 @@ h2{
   font-size: 20px;
   font-weight: 100;
   margin-top: 4px;
+  --bs-navbar-nav-link-padding-x : 0.7rem;
 }
 .logo-image{
   width: 300px;
@@ -231,6 +233,9 @@ h2{
   color: white;
   border-radius: 40px;
   padding: 10px 30px;
+}
+.book{
+  margin-left: 0.2rem;
 }
 .btn:hover{
   --bs-btn-hover-bg: ;
