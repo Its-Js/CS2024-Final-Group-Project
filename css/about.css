@@ -1,5 +1,5 @@
 .story-hero{
-    background-image:url("../assets/outstoryhero.jpg");
+    background-image:url("../assets/aesthetic-clinic-bg-img.jpg");
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,10 @@
 }
 .col-md-5{
     padding: 0;
+    overflow: auto;
+    overflow-x: hidden;
 }
+
 .featurette{
     width: 100%;
     justify-content: space-between;
@@ -35,4 +38,7 @@
 }
 .featurette-heading{
     margin-top: 55px;
+}
+.display-3{
+    backdrop-filter: blur(4px);
 }

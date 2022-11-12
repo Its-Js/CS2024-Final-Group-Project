@@ -207,6 +207,9 @@ h2{
   margin-top: 4px;
   --bs-navbar-nav-link-padding-x : 0.7rem;
 }
+.nav-link:hover{
+  --bs-link-hover-color: #0a58ca;
+}
 .logo-image{
   width: 300px;
   margin-left: 50px;
