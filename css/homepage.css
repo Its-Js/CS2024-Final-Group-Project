@@ -1,6 +1,10 @@
 body{
     padding: 0;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
 }
 body::-webkit-scrollbar{
     display: none;
@@ -11,6 +15,9 @@ header{
     display: flex;
     width: 100%;
 } 
+main{
+    display: block;
+}
 
 .hero{
     width: 100%;
@@ -19,7 +26,8 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 .model{
     background-image: none;
@@ -62,7 +70,50 @@ header{
     width: 300px;
     margin-left: 50px;
 }
-@media only screen and (max-width: 920px) {
+.whylux{
+    background-color: #d9bba9;
+}
+.whylux .order-md-2 {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.whylux .order-md-1{
+    width: fit-content;
+}
+.whylux .lead{
+    color: #fff;
+    width: 80%;
+}
+.whylux .featurette-heading{
+    color: #fff;
+    margin: 0;
+}
+.card{
+    background-color: #d9bba9;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-blur{
+    backdrop-filter: blur(6px);
+}
+.text-bg-primary{
+    background-color: #d9bba9!important;
+    color: white!important;
+    transition: background-color 0.3s ease-out;
+ 
+}
+.text-bg-primary:hover{
+    background-color: #deaa89!important;
+}
+.bg-blog{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1000px) {
    .navbar-nav {
         width: 100%;
         z-index: 1;
@@ -72,8 +123,16 @@ header{
         display: none;
    }
    .container-fluid{
-        width: fit-content;
-        margin: 0;
+        position: absolute;
+        right: 2%;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+        z-index: 12000;
    }
    .navbar-expand-lg{
         width: 100%;
@@ -100,5 +159,147 @@ header{
     width: 100%;
     margin: 0;
     padding: 0;
+    display: block;
    }
+   .whylux{
+    width: 100%;
+   }
+}
+.g-6,
+.gx-6 {
+    --bs-gutter-x: 3.5rem
+}
+
+.g-6,
+.gy-6 {
+    --bs-gutter-y: 3.5rem
+}
+
+@media(min-width: 576px) {
+
+    .g-sm-6,
+    .gx-sm-6 {
+        --bs-gutter-x: 4.5rem
+    }
+
+    .g-sm-6,
+    .gy-sm-6 {
+        --bs-gutter-y: 4.5rem
+    }
+}
+
+@media(min-width: 768px) {
+
+    .g-md-6,
+    .gx-md-6 {
+        --bs-gutter-x: 4.5rem
+    }
+
+    .g-md-6,
+    .gy-md-6 {
+        --bs-gutter-y: 4.5rem
+    }
+}
+
+@media(min-width: 992px) {
+
+    .g-lg-6,
+    .gx-lg-6 {
+        --bs-gutter-x: 4.5rem
+    }
+
+    .g-lg-6,
+    .gy-lg-6 {
+        --bs-gutter-y: 4.5rem
+    }
+}
+
+@media(min-width: 1200px) {
+
+    .g-xl-6,
+    .gx-xl-6 {
+        --bs-gutter-x: 4.5rem
+    }
+
+    .g-xl-6,
+    .gy-xl-6 {
+        --bs-gutter-y: 4.5rem
+    }
+}
+
+@media(min-width: 1400px) {
+
+    .g-xxl-6,
+    .gx-xxl-6 {
+        --bs-gutter-x: 4.5rem
+    }
+
+    .g-xxl-6,
+    .gy-xxl-6 {
+        --bs-gutter-y: 4.5rem
+    }
+}
+
+.mb-6 {
+    margin-bottom: 6.5rem !important
+}
+
+.py-6 {
+    padding-top: 3.5rem !important;
+    padding-bottom: 6.5rem !important
+}
+
+@media(min-width: 576px) {
+    .mb-sm-6 {
+        margin-bottom: 6.5rem !important
+    }
+
+    .py-sm-6 {
+        padding-top: 3.5rem !important;
+        padding-bottom: 6.5rem !important
+    }
+}
+
+@media(min-width: 768px) {
+    .mb-md-6 {
+        margin-bottom: 6.5rem !important
+    }
+
+    .py-md-6 {
+        padding-top: 3.5rem !important;
+        padding-bottom: 6.5rem !important
+    }
+}
+
+@media(min-width: 992px) {
+    .mb-lg-6 {
+        margin-bottom: 6.5rem !important
+    }
+
+    .py-lg-6 {
+        padding-top: 3.5rem !important;
+        padding-bottom: 6.5rem !important
+    }
+}
+
+@media(min-width: 1200px) {
+    .mb-xl-6 {
+        margin-bottom: 6.5rem !important
+    }
+
+    .py-xl-6 {
+        padding-top: 3.5rem !important;
+        padding-bottom: 6.5rem !important
+    }
+}
+
+@media(min-width: 1400px) {
+    .mb-xxl-6 {
+        margin-bottom: 6.5rem !important
+    }
+
+    .py-xxl-6 {
+        padding-top: 3.5rem !important;
+        padding-bottom: 6.5rem !important
+    }
 }
