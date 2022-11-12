@@ -5,6 +5,11 @@ body {
   font-size: 20px;
   overflow-x: hidden;
 }
+html{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 body::-webkit-scrollbar{
   display: none;
 }
@@ -234,4 +239,45 @@ h2{
   --bs-btn-hover-bg: ;
   --bs-btn-hover-border-color: 2px solid #d9bba9;
   --bs-btn-hover-color: #d9bba9;
+}
+@media only screen and (max-width: 1000px){
+  .navbar-nav {
+      width: 90%;
+      z-index: 10000;
+      overflow: hidden;
+      position: absolute;
+      right:0;
+      left: 0;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+  }
+  .nav-item{
+    padding: 10px;
+   }
+  .container-fluid{
+    width: fit-content;
+    margin: 0;
+  }
+  .navbar-expand-lg{
+      width: 100%;
+      flex-direction: row;
+  }
+  .logo-image {
+      width: 50%!important;
+      margin: auto!important;
+  }
+  .logo{
+    width: 50%!important;
+  }
+  .col-md-5{
+    display: none;
+  }
 }
