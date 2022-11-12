@@ -188,6 +188,9 @@ h2{
 /* navigation */
 .navbar {
   margin-bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .container-fluid{
   width: fit-content;
