@@ -27,3 +27,11 @@
     margin-left: 70%;
     margin-top: 10px;
 }
+
+@media only screen and (max-width:1000px) {
+  .blog-older-posts {
+    width: 55%;
+    margin-left: 0;
+    margin-top: 35px;
+  }
+}
